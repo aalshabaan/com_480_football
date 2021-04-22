@@ -17,10 +17,10 @@ We decided to use a dataset from [Kaggle](https://www.kaggle.com/) as suggested.
 The dataset is fairly clean, so we won't need much of preprocessing, but it contains many different tables with a lot of attributes that we won't need, which makes the data exploration a bit more tedious. We might end up needing to cross referencing our dataset with others to tackle our topic. 
 
 ### Problematic:
-Our inspiration comes from the [Too-Much-Talent Effect](https://journals.sagepub.com/doi/10.1177/0956797614537280), a study published in Psychological Science Journal. It's a study to look at the relationship betweet team member's individual talents and team performance. Surveys have shown that 37% of people beleive that it's a linear relationship, the more there's stars in a team the more successful it becomes. The study has shown that individual talent helps the team's performance but only up to certain point then it starts having a negative effect. We would like to induct this study topic on our dataset and to produce an interactive visualization for people who are unaware of this effect and for the 37% percent who are aware of it but don't beleive it.
+Our inspiration comes from the [Too-Much-Talent Effect](https://journals.sagepub.com/doi/10.1177/0956797614537280), a study published in Psychological Science Journal. It's a study to look at the relationship betweet team member's individual talents and team performance. Surveys have shown that 37% of people believe that it's a linear relationship, the more stars in a team the more successful it becomes. The study has shown that individual talent helps the team's performance but only up to certain point then it starts having a negative effect. We would like to induct this study topic on our dataset and to produce an interactive visualization for people who are unaware of this effect and for the 37% percent who are aware of it but don't believe it.
 
 ### Pre-processing of the dataset:
-We are intrested mainly in 3 values that we need to extract and compute:
+We are interested mainly in 3 values that we need to extract and compute:
 * How successful a team is:
     We could extract this value by looking on how many matches did a team win and by how much score difference. We could count goals scored on the opponent's turf counts as double. We would most likely only compare between teams in the same league, as some leagues are more challenging than others.
 * How talented a player is:
